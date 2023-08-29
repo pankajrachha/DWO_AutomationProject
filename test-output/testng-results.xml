@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-29T16:06:42 IST" name="Default suite" finished-at="2023-08-29T16:06:53 IST" duration-ms="10437">
+    <groups>
+    </groups>
+    <test started-at="2023-08-29T16:06:42 IST" name="Default test" finished-at="2023-08-29T16:06:53 IST" duration-ms="10437">
+      <class name="testPackage.Assignment2">
+        <test-method signature="OpenBrowser()[pri:2, instance:testPackage.Assignment2@f5acb9d]" started-at="2023-08-29T16:06:42 IST" name="OpenBrowser" finished-at="2023-08-29T16:06:51 IST" duration-ms="8961" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method signature="SignIn(java.lang.String,java.lang.String)[pri:1, instance:testPackage.Assignment2@f5acb9d]" started-at="2023-08-29T16:06:51 IST" name="SignIn" data-provider="getData" finished-at="2023-08-29T16:06:52 IST" depends-on-methods="testPackage.Assignment2.OpenBrowser" duration-ms="1044" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pankaj.rachha111@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pankaj@1#]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignIn -->
+        <test-method signature="LandingPage()[pri:3, instance:testPackage.Assignment2@f5acb9d]" started-at="2023-08-29T16:06:52 IST" name="LandingPage" finished-at="2023-08-29T16:06:52 IST" depends-on-methods="testPackage.Assignment2.SignIn" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingPage -->
+        <test-method signature="LogOut()[pri:4, instance:testPackage.Assignment2@f5acb9d]" started-at="2023-08-29T16:06:52 IST" name="LogOut" finished-at="2023-08-29T16:06:53 IST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOut -->
+      </class> <!-- testPackage.Assignment2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
